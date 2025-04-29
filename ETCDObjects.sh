@@ -15,7 +15,7 @@ read OBJECT
 
 if [ "$OBJECT" ]
 then
-   echo "=====Researching when specific $OBJECT are created====="
+   echo "=====Researching when specific $OBJECT is created====="
    echo "==By month=="
    oc get ${OBJECT} -A -o jsonpath='{range .items[*]}{.metadata.creationTimestamp}{"\n"}{end}' | grep -oE "[0-9]{4}-[0-9]{2}" | sort | uniq -c
    echo "==By day=="
