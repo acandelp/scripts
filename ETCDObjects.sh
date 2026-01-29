@@ -29,5 +29,7 @@ else
     exit
 fi
 
+hola que tal 
+#pending
 #pending tasks
 # Script in functions
