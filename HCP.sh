@@ -15,3 +15,9 @@ echo Backplane to the MC
 ocm backplane login $MC_ID
 echo "List the namespaces from the customer cluster inside the MC"
 oc get project | grep $INT_ID
+
+#NEXT STEPS:
+#check the cluster information, clusters, hcp, version, customer, organization
+#cuando entremnos en el , vemos si podemos acceder a toda la info despues del backplane
+
+
